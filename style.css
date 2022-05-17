@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.navigo {
+    display: grid;
+    grid-template-columns: minimax(300px, auto)1fr;
+}
+
+
+
+#navbar {
+    grid-area: navbar;
+    position: fixed;
+}
+
+#navbar a {
+    display: block;
+    border: 1px solid rgb(179, 176, 176);
+    padding: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+header {
+    color: rgb(179, 176, 176);
+    margin: 0 6rem;
+    font-style: bold;
+}

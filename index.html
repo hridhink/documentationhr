@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>technical documenjtation page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</head>
+<link href="style.css" rel="stylesheet">
+
+<body>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="navigo">
+        <nav id="navbar">
+          <header>DOCUMENTATION MENU</header>
+          <a href="#intro" class="link">what is OOPS (OBJECT ORIENTED PROGRAMING)</a>
+          <a href="#object" class="link">OBJECTS</a>
+          <a href="#class" class="link">INHERITANCE</a>
+          <a href="#poly" class="link">POLYMORPHISM</a>
+          <a href="#abstra " class="link">DATA ABSTRACTION</a>
+          <a href="#encap " class="link">ENCAPSULATION</a>
+          <a href="#fload " class="link">FUNCTION OVERLOADING</a>
+          <a href="#fride" class="link">FUNCTION OVERRIDING</a>
+          <a href="#bind " class="link">DATA BINDING</a>
+
+        </nav>
+      </div>
+    </div>
+    <div class="col-lg-9">
+      <section class="section1" id="intro">
+        <h3 style="color:antiquewhite"> object oriented programming</h3>
+        <p style="color:antiquewhite">Object means a real-world entity such as a pen, chair, table, computer, watch,
+          etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
+          It simplifies software development and maintenance by providing some concepts:
+
+          Object
+          Class
+          Inheritance
+          Polymorphism
+          Abstraction
+          Encapsulation
+          Apart from these concepts, there are some other terms which are used in Object-Oriented design:
+
+          Coupling
+          Cohesion
+          Association
+          Aggregation
+          Composition</p>
+      </section>
+      <section class="section2" id="object">
+        <h3 style="color:antiquewhite">OBJECTS</h3>
+        <p style="color:antiquewhite">Any entity that has state and behavior is known as an object. For example, a
+          chair, pen, table, keyboard, bike, etc. It can be physical or logical.
+
+          An Object can be defined as an instance of a class. An object contains an address and takes up some space in
+          memory. Objects can communicate without knowing the details of each other's data or code. The only necessary
+          thing is the type of message accepted and the type of response returned by the objects.
+
+          Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like
+          wagging the tail, barking, eating, etc.</p>
+      </section>
+      <section class="section3" id="class">
+        <h2 style="color:antiquewhite">Class</h2>
+        <p style="color:antiquewhite">A class is a user defined blueprint or prototype from which objects are created.
+          It represents the set of properties or methods that are common to all objects of one type. In general, class
+          declarations can include these components, in order:
+
+          Modifiers: A class can be public or has default access (Refer this for details).
+          class keyword: class keyword is used to create a class.
+          Class name: The name should begin with an initial letter (capitalized by convention).
+          Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A
+          class can only extend (subclass) one parent.
+          Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the
+          keyword implements. A class can implement more than one interface.
+          Body: The class body surrounded by braces.</p>
+      </section>
+      <section class="section4" id="poly">
+        <h3 style="color:antiquewhite"> POLYMORPHISM</h3>
+        <P style="color:antiquewhite">Object-Oriented Programming has different concepts allowing developers to build
+          logical code. One of these concepts is polymorphism. But what is polymorphism? Let’s discuss.
+
+          Polymorphism is one of the core concepts of object-oriented programming (OOP) and describes situations in
+          which something occurs in several different forms. In computer science, it describes the concept that you can
+          access objects of different types through the same interface. Each type can provide its own independent
+          implementation of this interface.
+
+          To know whether an object is polymorphic, you can perform a simple test. If the object successfully passes
+          multiple is-a or instanceof tests, it’s polymorphic. As described in our post about inheritance, all Java
+          classes extend the class Object. Due to this, all objects in Java are polymorphic because they pass at least
+          two instanceof checks.
+
+        </P>
+      </section>
+      <section class="section5" id="encap">
+        <h3 style="color:antiquewhite">ENCAPSULATION</h3>
+        <p style="color:antiquewhite">Encapsulation is one of the fundamental concepts in object-oriented programming
+          (OOP). Let’s examine how it’s
+          done and unwrap some examples for this concept.
+
+          By definition, encapsulation describes the idea of bundling data and methods that work on that data within one
+          unit, like a class in Java. This concept is also often used to hide the internal representation, or state of
+          an object from the outside. This is called information hiding.
+
+          The general idea of this mechanism is simple. For example, you have an attribute that is not visible from the
+          outside of an object. You bundle it with methods that provide read or write access. Encapsulation allows you
+          to hide specific information and control access to the internal state of the object.
+
+          If you’re familiar with any object-oriented programming language, you probably know these methods as getter
+          and setter methods. As the names indicate, a getter method retrieves an attribute and a setter method changes
+          it. Depending on the methods that you implement, you can decide if an attribute can be read and changed. You
+          may also control if the attribute is read-only or not visible at all. Later, we’ll show you how the setter
+          method can also be used to implement additional validation rules to ensure that your object always has a valid
+          state.
+
+          Let’s take a look at an example that shows the concept of encapsulation in Java. This example implements
+          information hiding and applies additional validation before changing the values of your object attributes.</p>
+      </section>
+      <section class="section6" id="abstra">
+        <h3 style="color:antiquewhite">DATA ABSTRACTION</h3>
+
+        <P style="color:antiquewhite">What Is Data Abstraction?
+          Data abstraction is the programming process of creating a data type, usually a class, that hides the details
+          of the data representation in order to make the data type easier to work with. Data abstraction involves
+          creating a representation for data that separates the interface from the implementation so a programmer or
+          user only has to understand the interface, the commands to use, and not how the internal structure of the data
+          is represented and/or implemented.
+
+
+          Save Timeline Autoplay Speed Normal
+          Video Quiz Course
+          34K views
+          Smartphone Example
+          An example in the real-world is a mobile or smartphone. The typical smartphone user does not know how calls
+          are made, or how the phone accesses the Internet, or even how data is stored in the phone. Instead, the mobile
+          or smartphone user is provided with an interface that hides these details from them. Making a call simply
+          involves selecting a contact's phone number. Accessing the Internet involves selecting an icon on the screen.
+
+          The user does not need to understand the details of how a phone call is placed or how the Internet works.
+          These details are abstracted away from the phone's interface in order to make the phone easier and more
+          effective to use. The design of the mobile or smartphone clearly separates the interface from the
+          implementation. The user can learn the functions of the phone without ever having to know anything about how
+          the phone works internally.
+
+          Automobile Example
+          Another real-life example is an automobile. Most people today know how to operate an automobile without
+          knowing anything about how the internal combustion engine works or how the transmission works. There was a
+          time when most automobile users did have to know something about these details, but as automobile technology
+          improved, the details of the engine and other working parts were abstracted away so that the driver primarily
+          only has to know how to start a car, how to make the car go and stop, how to steer the car, and how to add
+          gasoline when the gas tank is empty.
+
+          The automatic transmission is another example of abstraction. When cars were first produced, they only had
+          manual transmissions, and all car drivers had to learn how to shift the gears of the transmission in order for
+          the car to move forward or backward. Over time, the introduction of the automatic transmission abstracted away
+          this layer of knowledge about the implementation of the automobile, making</P>
+      </section>
+      <section class="section7" id="fload">
+        <h3 style="color:antiquewhite"> FUNCTION OVERLOADING</h3>
+        <P style="color:antiquewhite">Two or more functions can have the same name but different parameters; such
+          functions are called function
+          overloading.
+
+          C++ has many features, and one of the most important features is function overloading. It is a code with more
+          than one function with the same name having various types of argument lists. This argument list includes the
+          data type of arguments and the sequence of the arguments.
+
+          The function overloading in c++ feature is used to improve the readability of the code. It is used so that the
+          programmer does not have to remember various function names. If any class has multiple functions with
+          different parameters having the same name, they are said to be overloaded. If we have to perform a single
+          operation with different numbers or types of arguments, we need to overload the function.
+
+          In OOP, function overloading is known as a function of polymorphism. The function can perform various
+          operations best on the argument list. It differs by type or number of arguments they hold. By using a
+          different number of arguments or different types of arguments, the function can be redefined. </P>
+      </section>
+      <section class="section8" id="fride">
+        <h3 style="color:antiquewhite">FUNCTION OVERRIDING</h3>
+        <p style="color:antiquewhite">A function is a constituent piece of code that performs a specific task in a
+          program. Now, to understand
+          function overriding, you must understand inheritance first, as implementing inheritance is mandatory to
+          override a function. Inheritance is one of more vital concepts of OOPs that allows a derived class to inherit
+          the properties of its parent class. Function overriding provides you with a way to override an existing
+          functionality of a class inside a particular derived class. This can be useful when a child class requires its
+          own version of a functionality.
+
+          Now, understand this with the help of an example. Consider a vehicle manufacturing company “Ford”. A “Car”
+          manufactured by this company inherits properties like brand name and vehicle type i.e. “Four Wheeler” from it.
+          However, the “Car” can have a more specific vehicle type like “Sports vehicle”. So, the vehicle type function
+          of the class “Ford” can be overridden in the class “Car” having its own definition of the function.
+
+          Function Overriding in C++
+          Function overriding in C++ is a concept by which you can define a function of the same name and the same
+          function signature (parameters and their data types) in both the base class and derived class with a different
+          function definition. It redefines a function of the base class inside the derived class, which overrides the
+          base class function. Function overriding is an implementation of the run-time polymorphism. So, it overrides
+          the function at the run-time of the program.
+
+        </p>
+      </section>
+      <section class="section9" id="bind">
+        <h3 style="color:antiquewhite">DATA BINDING</h3>
+        <p style="color:antiquewhite">What is meant by data binding? Data binding is the process that establishes a
+          connection between the app UI
+          and the data it displays. Data binding can also mean that if an outer representation of the data in an element
+          changes, then the underlying data can be automatically updated to reflect the change.
+
+          What is data binding and its types? A discussion of the four important types of data binding in Angular
+          applications: string interpolation, property binding, event binding, and two-way data binding. String
+          Interpolation. Property Binding. Event Binding. Two-Way Data Binding.
+
+          WHAT IS DATA BINDING IN OOP? – RELATED QUESTIONS
+          What is data binding in C++?
+          Binding refers to the process of converting identifiers (such as variable and performance names) into
+          addresses. Binding is done for each variable and functions. For functions, it means that matching the call
+          with the right function definition by the compiler. It takes place either at compile time or at runtime.
+
+        </p>
+      </section>
+
+    </div>
+  </div>
+</body>
+
+</html>
